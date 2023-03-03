@@ -1,0 +1,11 @@
+ name: test
+ 
+ on:
+   schedule:
+ jobs:
+   signin:
+     name: BiliBili Signin
+     runs-on: ubuntu-latest
+     steps:
+       - run: hostnamectl
+       
